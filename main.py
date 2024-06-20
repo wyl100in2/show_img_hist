@@ -61,6 +61,7 @@ def main():
     im = get_image()
     hist_red, hist_green, hist_blue = show_histogram(im)
     show_color_selector(hist_red, hist_green, hist_blue)
+    print("hello world")
 
 
 if __name__ == '__main__':
