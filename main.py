@@ -54,6 +54,7 @@ def show_color_selector(hist_red, hist_green, hist_blue):
     if color == 'B':
         df_hist = pd.DataFrame(hist_blue)
         st.bar_chart(df_hist)
+        prit("helppo")
 
 
 def main():
